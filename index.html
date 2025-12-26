@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Royal King | Luxury Hotel in Ludhiana</title>
 
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<!-- HEADER -->
 <header class="header">
-  <h1 class="logo">The Royal King</h1>
-  <nav>
+  <div class="logo">The Royal King</div>
+  <nav class="nav">
     <a href="#home">Home</a>
+    <a href="#about">About</a>
     <a href="#rooms">Rooms</a>
-    <a href="#lobby">Lobby</a>
+    <a href="#amenities">Amenities</a>
     <a href="#contact">Contact</a>
   </nav>
 </header>
@@ -23,57 +25,82 @@
 <section id="home" class="hero">
   <div class="hero-content">
     <span class="badge">5★ Rated Hotel</span>
-    <h2>Welcome to The Royal King</h2>
-    <p>Luxury • Comfort • Prime Location</p>
-    <button onclick="toggleExterior()" class="btn">Day / Night View</button>
+    <h1>Welcome to The Royal King</h1>
+    <p>Where Luxury Meets Comfort</p>
+    <button class="btn" onclick="toggleExterior()">Day / Night View</button>
   </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <h2>About The Royal King</h2>
+  <p class="section-text">
+    The Royal King offers premium hospitality in the heart of Ludhiana.
+    Designed for families, business travelers, and luxury seekers.
+  </p>
 </section>
 
 <!-- ROOMS -->
 <section id="rooms" class="section dark">
   <h2>Our Rooms</h2>
+
   <div class="cards">
-
     <div class="card">
-      <img src="https://drive.google.com/uc?id=1yZc7wlXspxj7zGCPf9sFGWASqIKJOHEO">
-      <p>Deluxe Room</p>
+      <img src="assets/room1.jpg">
+      <h3>Deluxe Room</h3>
+      <p>₹2500 / night</p>
     </div>
 
     <div class="card">
-      <img src="https://drive.google.com/uc?id=1eP3szLJhamaAClEVEgQilxciVgXMpqSa">
-      <p>Executive Room</p>
+      <img src="assets/room2.jpg">
+      <h3>Executive Room</h3>
+      <p>₹3000 / night</p>
     </div>
 
     <div class="card">
-      <img src="https://drive.google.com/uc?id=1YDenvZXu-hWBjxvTT9f0bVlQLCdTFtr6">
-      <p>Premium Room</p>
+      <img src="assets/room3.jpg">
+      <h3>Premium Room</h3>
+      <p>₹3500 / night</p>
     </div>
 
     <div class="card">
-      <img src="https://drive.google.com/uc?id=1Bp7ZQ9S5nKR7d9StnBJHW4LxKl9ZwD2w">
-      <p>Suite Room</p>
+      <img src="assets/room4.jpg">
+      <h3>Suite Room</h3>
+      <p>₹4000 / night</p>
     </div>
-
   </div>
 </section>
 
 <!-- LOBBY -->
-<section id="lobby" class="section">
+<section class="section">
   <h2>Lobby</h2>
-  <div class="wide">
-    <img src="https://drive.google.com/uc?id=1EsrIyFt1O5-1pjN3-ThAzVVEqPFXoftU">
+  <img src="assets/lobby.jpg" class="wide-img">
+</section>
+
+<!-- AMENITIES -->
+<section id="amenities" class="section dark">
+  <h2>Amenities</h2>
+
+  <div class="amenities">
+    <div>24/7 Room Service</div>
+    <div>Free Wi-Fi</div>
+    <div>Parking Facility</div>
+    <div>Restaurant</div>
+    <div>Air Conditioning</div>
+    <div>Laundry Service</div>
   </div>
 </section>
 
 <!-- CONTACT -->
-<section id="contact" class="section dark">
+<section id="contact" class="section">
   <h2>Contact Us</h2>
-  <p>Chandigarh Rd, Mangli (Uchi), Ludhiana</p>
+  <p>Chandigarh Road, Mangli (Uchi), Ludhiana</p>
   <p>📞 +91 98765 43210</p>
 </section>
 
+<!-- FOOTER -->
 <footer>
-  © 2025 Hotel The Royal King
+  © 2025 Hotel The Royal King. All Rights Reserved.
 </footer>
 
 <script src="script.js"></script>
